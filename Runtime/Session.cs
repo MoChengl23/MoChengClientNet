@@ -80,6 +80,7 @@ namespace KCPNET
             if (IsConnected)
             {
 Debug.Log("Thread.CurrentThread.Name");
+Debug.Log("test");
                 Debug.Log(Thread.CurrentThread.Name);
                 m_kcp.Send(ProtobufTool.PbToByte(msg));
             }
